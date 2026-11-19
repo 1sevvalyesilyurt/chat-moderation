@@ -1,0 +1,17 @@
+# data & model weights are NOT committed (Kaggle rules + size)
+data/
+models/
+*.zip
+*.pt
+*.bin
+*.safetensors
+*.onnx
+# secrets
+kaggle.json
+.env
+# python / notebooks
+__pycache__/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store

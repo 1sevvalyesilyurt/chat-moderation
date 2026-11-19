@@ -1,0 +1,3 @@
+# Phase 1 dependencies (the list will grow in later phases)
+pandas
+scikit-learn
