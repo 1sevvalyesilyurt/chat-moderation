@@ -1,3 +1,5 @@
-# Phase 1 dependencies (the list will grow in later phases)
+# Phase 1-2 dependencies (the list will grow in later phases)
 pandas
+numpy
 scikit-learn
+joblib
