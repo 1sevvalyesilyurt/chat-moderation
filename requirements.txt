@@ -1,9 +1,10 @@
-# Phase 1-4 dependencies (the list will grow in later phases)
-pandas
-numpy
-scikit-learn
-joblib
-torch
-transformers
-huggingface_hub
-gensim  # only needed to TRAIN word2vec, not to run the app
+# Runtime dependencies for the chat moderation app and benchmark
+# (Training word2vec from scratch additionally requires: gensim)
+pandas>=2.0
+numpy>=1.26
+scikit-learn==1.6.1
+joblib>=1.3
+torch>=2.1
+transformers>=4.40
+huggingface_hub>=0.23
+gradio>=5.0
