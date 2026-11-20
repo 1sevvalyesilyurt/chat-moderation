@@ -32,7 +32,7 @@ sentences = [tokenize(normalize_text(t)) for t in train.text]
 print("training word2vec on", len(sentences), "train messages,",
       sum(map(len, sentences)), "tokens")
 w2v = Word2Vec(sentences, vector_size=DIM, window=5, min_count=2, sg=1,
-               negative=5, epochs=10, workers=4, seed=SEED)
+               negative=5, epochs=10, workers=1, seed=SEED)   # workers=1 -> reproducible
 vocab = {w: i for i, w in enumerate(w2v.wv.index_to_key)}
 vectors = w2v.wv.vectors.astype(np.float32)
 print("vocabulary size:", len(vocab))
