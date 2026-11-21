@@ -221,8 +221,8 @@ def build_ui(engine: ModerationEngine) -> gr.Blocks:
                     label="Quick sample messages (demo also supports typing any new message live)",
                     examples=[
                         ["Good game everyone, that was a close match!"],
-                        ["y0u are so000 stup1d and usel3ss!!!"],
-                        ["HE IS NOT A PORN PRODUCER"],
+                        ["y0u are a stuuuupid id10t!!!"],
+                        ["You are not stupid at all, nice play!"],
                         ["Hey donkey, its your uncle."],
                         ["Bu maç çok zordu ama teşekkürler arkadaşlar!"],
                     ],
